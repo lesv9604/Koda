@@ -2536,27 +2536,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #F99335;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #d47e2d;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #a86424;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #88511d;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #F99335;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #F99335;
 				}
 
 /* Image */
@@ -3240,27 +3240,27 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #17352E;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #0f241f;
 		}
 
 		.wrapper.style2 {
-			background-color: #1d5149;
+			background-color: #8faf88;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #8faf88;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #559584;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #17352e7c;
 		}
 
 		.wrapper.fullscreen {
@@ -3370,7 +3370,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #559584;
+		background-color: #17352E;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3877,7 +3877,7 @@ input, select, textarea {
 		background-image: url(/images/Pic_07.jpg) ;
 		background-position: right;
 		background-repeat: no-repeat;
-		background-size: 80% 120%
+		background-size: 100% 100%
 	}
 	#intro:before {
 		content:'';
