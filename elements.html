@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Registrarse - Koda-Vivero</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Koda</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html">Iniciar Sesion</a></li>
+						<li><a href="elements.html"  class="active">Registrate</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div class="formulario-registro">
+				<form id="form_registro">
+					<h1>Registrarse</h1>
+					<label form="username">Username</label>
+					<input type="text", id="username" placeholder="Ingrese nombre">
+					<br><label form="contrasena">Contraseña</label>
+					<input type="password", id="contrasena" placeholder="Ingrese contraseña"></br>
+					<label form="email">Email</label>
+					<input type="email", id="email" placeholder="Ingrese email"></br>
+					<label form="pregunta_de_seguridad">Pregunta de seguridad</label>
+					<select name="pregunta_de_seguridad">
+				
+						<option>¿Cual fue el primer colegio en el que estudio?</option>
+						
+						<option>¿En que ciudad quisiera vivir?</option>
+						
+						<option>¿Cual es el nombre de tu mascota?</option>
+						
+						</select></br>
+					<label form="respuesta_de_seguridad">Respuesta</label>
+					<input type="text", id="respuestaDeSeguridad" placeholder="Ingrese Respuesta"> 
+					<br><button id="btn-registrar">Registrarse</button></br>
+					<p class="warnings" id="warnings"></p>
+					<br><a id="enlace-login" href="generic.html">¿Ya tienes cuenta? Inicia sesión</a></br>
+				</div>
+				</form>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Koda-Vivero. All rights reserved.</li><li>Design: Hanna Sarmiento y Luis Suarez</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/validar_registro.js"></script>
+
+
+	</body>
+</html>
